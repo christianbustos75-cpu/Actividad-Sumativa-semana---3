@@ -1,0 +1,148 @@
+/* Reset básico para eliminar márgenes y paddings por defecto */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+/* Estilos generales del cuerpo de la página */
+body{
+background:#f4f6f9;
+color:#1e293b;
+}
+
+/* Encabezado principal */
+.header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 30px;
+background:white;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Contenedor del logo */
+.logo{
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+/* Tamaño del logo */
+.logo img{
+width:40px;
+}
+
+/* Enlaces del menú de navegación */
+nav a{
+margin-left:20px;
+text-decoration:none;
+color:#1e293b;
+font-weight:500;
+}
+
+/* Efecto hover en el menú */
+nav a:hover{
+color:#0077cc;
+}
+
+/* Sección principal (hero) */
+.hero{
+text-align:center;
+padding:80px 20px;
+background:#0077cc;
+color:white;
+}
+
+/* Título del hero */
+.hero h2{
+font-size:32px;
+}
+
+/* Texto del hero */
+.hero p{
+margin-top:10px;
+}
+
+/* Sección sobre mí */
+.sobre{
+max-width:800px;
+margin:auto;
+padding:60px 20px;
+text-align:center;
+}
+
+/* Contenedor de proyectos */
+.proyectos{
+display:flex;
+gap:20px;
+justify-content:center;
+padding:40px;
+flex-wrap:wrap;
+}
+
+/* Tarjetas de proyectos */
+.card{
+background:white;
+padding:20px;
+border-radius:10px;
+width:300px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+/* Efecto hover en tarjetas */
+.card:hover{
+transform:translateY(-8px);
+}
+
+/* Títulos de las tarjetas */
+.card h3{
+margin-bottom:10px;
+}
+
+/* Sección de contacto */
+.contacto{
+text-align:center;
+padding:60px;
+}
+
+/* Formulario */
+form{
+display:flex;
+flex-direction:column;
+max-width:400px;
+margin:auto;
+}
+
+/* Campos de entrada */
+input,textarea{
+margin:10px 0;
+padding:12px;
+border-radius:5px;
+border:1px solid #ccc;
+}
+
+/* Botón */
+button{
+background:#0077cc;
+color:white;
+padding:10px;
+border:none;
+cursor:pointer;
+}
+
+/* Efecto hover botón */
+button:hover{
+background:#005fa3;
+}
+
+/* Pie de página */
+footer{
+text-align:center;
+padding:20px;
+background:#1e293b;
+color:white;
+}
+}
