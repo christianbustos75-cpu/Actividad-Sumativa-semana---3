@@ -19,4 +19,4 @@ if(n==""||c==""||m==""){
     r.textContent="Mensaje enviado correctamente";
     r.style.color="green";
 }
-})
+});
